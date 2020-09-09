@@ -25,7 +25,9 @@ class dump(Resource):
 
 api.add_resource(dump, '/square') 
 
-if __name__="__main__":
+if __name__ == '__main__':
+    
     app.run(debug=True)
+
 
 
